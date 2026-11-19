@@ -1,0 +1,22 @@
+{
+  "name": "rp-dosefield-sim",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "核电厂检修剂量场仿真系统 (TypeScript + WebGPU)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "@webgpu/types": "^0.1.74",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.8"
+  }
+}
